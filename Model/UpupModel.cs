@@ -39,7 +39,7 @@ namespace MakeUpupResources
         /// <summary>
         /// 主题编号
         /// </summary>
-        public string themeno { get; set; } = $"the{DateTime.Now.ToString("yyMMddHHmmss")}";
+        public string themeno { get; set; } = $"{DateTime.Now.ToString("yyMMddHHmmss")}";
 
         /// <summary>
         /// 完整路径
